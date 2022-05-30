@@ -1,11 +1,18 @@
 # Assignment 0: Markdown
-## You have to write markdown
-### Some math equation
-$$ First\ equation: Y = X\beta + \epsilon_y,\forall X $$
 
-$$ Secon\ equation: X = Z\gamma + \epsilon_x $$
+## You have to write markdown
+
+### Some math equation
+
+$$ 
+\begin{align*}
+\ \text{First\ equation: } & Y = X\beta + \epsilon_y,\forall X 
+\\\ \text{Second\ equation: } & X = Z\gamma + \epsilon_x
+\end{align*}
+$$
 
 $$ f_1(\omega) = \frac{{\sigma^2}}{2\pi}, \omega \in [-\pi, \pi] $$
+
 
 1. First item a. first sub-item A) first sub-sub-item b. second sub-item
 2. Second item
@@ -19,6 +26,8 @@ $$ f_1(\omega) = \frac{{\sigma^2}}{2\pi}, \omega \in [-\pi, \pi] $$
     * second sub-item
 
 
+![cat](https://github.com/ApurboSaha-cse/retake/blob/master/Logo.png)
+
 `library(tidyverse)`    
 `library(mdsr)`    
 `SAT_2010 %>% ggplot(aes(write,..density..)) + geom_histogram() +`    
@@ -28,9 +37,9 @@ $$ f_1(\omega) = \frac{{\sigma^2}}{2\pi}, \omega \in [-\pi, \pi] $$
 You can align text in the columns to the left, right, or center by adding a colon (:) to the left,    
 right, or on both side of the hyphens within the header row.
 | Syntax | Description | Test Text |
-:--- | :---: | ---: |
-Header | Title | Here's this
-Paragraph | Text | And more
+| :--- | :---: | ---: |
+| Header | Title | Here's this |
+| Paragraph | Text | And more |
 
 # Intructions
 6.S191 software labs are designed to be completed at your own pace. At the end of each    
@@ -48,4 +57,4 @@ License. Use and/or modification of this code outside of 6.S191 must reference:
 
 >© MIT 6.S191: Introduction to Deep Learning
 >
-> [http://introtodeeplearning.com](http://introtodeeplearning.com/)
+> http://introtodeeplearning.com/
