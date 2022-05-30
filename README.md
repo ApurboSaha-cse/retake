@@ -57,4 +57,4 @@ License. Use and/or modification of this code outside of 6.S191 must reference:
 
 >© MIT 6.S191: Introduction to Deep Learning
 >
-> http://introtodeeplearning.com/
+> http://introtodeeplearning.com
